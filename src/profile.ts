@@ -98,8 +98,8 @@ const techStack = {
       logo: require("./assets/images/react_logo.png"),
     },
     {
-      title: "NodeJS", 
-      logo: require("./assets/images/nodejs_logo.png"),
+      title: "GIT", 
+      logo: require("./assets/images/git_logo.png"),
     },
     {
       title: "Docker", 
@@ -120,8 +120,9 @@ const workExperiences = {
       date: "June 2022 – August 2022",
       desc: "Developed a full stack internal web application for the ADP Dev Ops team which provides insights into critical infrastructure status and bug reports. Greatly improved team efficiency as most website functionalities were previously only done via the command line.",
       descBullets: [
-        "Tool developed using ReactJS, Redux, Python, Flask, Swagger, Docker, Confluence",
-        "Implemented Java Web Token authentication system and login process to manage user privleges and access"
+        "Tool developed using ReactJS, Redux, Python, Flask, Swagger, Confluence",
+        "Implemented Java Web Token authentication system and login process to manage user privileges and access",
+        "Deployed to ADP internal server using Docker"
       ]
     },
     {
