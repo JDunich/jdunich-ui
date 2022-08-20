@@ -1,7 +1,7 @@
 {
   "name": "jdunich-ui",
   "version": "0.1.0",
-  "homepage": "https://jdunich.github.io/jdunich-ui/",
+  "homepage": "https://jdunich.github.io/jdunich-ui",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

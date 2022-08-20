@@ -12,7 +12,7 @@ export default function GithubProjects() {
   const [profileData, setProfileData] = useState<repoValues[]>([])
 
   useEffect(() => {
-    fetch("/profile.json").then(result => {
+    fetch("jdunich-ui/profile.json").then(result => {
       if (result.ok) {
         return result.json();
       }
@@ -20,12 +20,6 @@ export default function GithubProjects() {
     }).then(response => {
       setProfileData(response.data.user.pinnedItems.edges);
     })
-    // .catch(function (error) {
-    //   console.error(
-    //     `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-    //   );
-    //   setProfileData("Error");
-    // })
   }, [])
   return(
     <Suspense fallback={Loading()}>
@@ -37,12 +31,6 @@ export default function GithubProjects() {
             return ( <GithubRepoCard node={v.node} key={v.node.id}/> );
           })}
         </div>
-      {/* <Button
-        text={"More Projects"}
-        className="project-button"
-        href={socialMediaLinks.github}
-        newTab={true}
-      /> */}
       </div>
       </Fade>
       </Suspense>
