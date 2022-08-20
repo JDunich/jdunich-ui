@@ -8,7 +8,6 @@
 }
 .greet-main {
   width: 90%;
-  height: 100vh;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
@@ -16,6 +15,7 @@
 
 .greeting-main {
   display: flex;
+  height: 100%;
 }
 
 
@@ -44,12 +44,13 @@
   color: $textColor;
 }
 
+.greeting-image-div-bottom {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
 .greeting-image-div > svg {
   max-width: 100%;
-  height: auto;
-  position: absolute;
-  right: 0px;
-  bottom: 200px;
 }
 
 .wave-emoji {

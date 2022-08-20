@@ -22,7 +22,7 @@ const greeting = {
   title: "Hello, I'm Jack",
   subTitle: "- Software Developer, New Jersey",
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1qrE-4ClCRviYljMs5jwlMbWuEn70VNaq/view?usp=sharing", // Set to empty to hide the button
 };
 
 // Social Media Links

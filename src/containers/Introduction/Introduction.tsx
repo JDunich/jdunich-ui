@@ -37,7 +37,7 @@ export default function Introduction() {
           </div>
           <div className="greeting-image-div">
               <ManCoding /> 
-          </div>
+          </div> 
         </div>
       </div>
     </Fade>

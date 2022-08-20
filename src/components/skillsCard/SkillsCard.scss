@@ -1,8 +1,7 @@
 @import "../../globalColor";
 
 .img-repo-card-div {
-  height: 150px;
-  width: 150px;
+  width: 50%;
   background-color: $background;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   padding: 2rem;
@@ -13,18 +12,4 @@
 }
 .img-repo-card-div:hover {
   box-shadow: 0px 0px 16px $darkBoxShadow;
-}
-
-@media (max-width: 1380px) {
-  .img-repo-card-div {
-    height: 30px;
-    width: 30px;
-  }
-
-}
-@media (max-width: 768px) {
-  .img-repo-card-div {
-    height: 30px;
-    width: 30px;
-  }
 }

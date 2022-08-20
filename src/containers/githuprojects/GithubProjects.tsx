@@ -12,7 +12,7 @@ export default function GithubProjects() {
   const [profileData, setProfileData] = useState<repoValues[]>([])
 
   useEffect(() => {
-    fetch("jdunich-ui/profile.json").then(result => {
+    fetch("profile.json").then(result => {
       if (result.ok) {
         return result.json();
       }
