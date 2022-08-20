@@ -15,7 +15,6 @@
 
 .greeting-main {
   display: flex;
-  height: 100%;
 }
 
 
@@ -51,6 +50,7 @@
 
 .greeting-image-div > svg {
   max-width: 100%;
+  height: auto;
 }
 
 .wave-emoji {
