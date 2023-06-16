@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.ed0404f2.css",
+    "main.css": "./static/css/main.cd5318ef.css",
     "main.js": "./static/js/main.ced7d599.js",
     "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/sass_logo.png": "./static/media/sass_logo.c556a176a8b7d49fb670.png",
@@ -14,11 +14,11 @@
     "static/media/react_logo.png": "./static/media/react_logo.2a0cac33f155e4a27216.png",
     "static/media/rutgers_logo.png": "./static/media/rutgers_logo.2c4be163310165bb3f7c.png",
     "index.html": "./index.html",
-    "main.ed0404f2.css.map": "./static/css/main.ed0404f2.css.map",
+    "main.cd5318ef.css.map": "./static/css/main.cd5318ef.css.map",
     "main.ced7d599.js.map": "./static/js/main.ced7d599.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed0404f2.css",
+    "static/css/main.cd5318ef.css",
     "static/js/main.ced7d599.js"
   ]
 }
