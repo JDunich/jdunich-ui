@@ -40,8 +40,8 @@ const socialMediaLinks = {
 
 const about = {
   title: emoji("About Me ✍"),
-  desc: ["I am a young motivated software developer with interests in both AI and full stack web development. I have worked on full stack projects professionally using technologies such as NodeJS, React, Redux, and Python with Flask API.", 
-  "In my freetime I enjoy learning about new AI and machine learing technologies, and implementing these technologies into personal projects."]
+  desc: ["I am a passionate and versatile software engineer with a strong background in full-stack development and a genuine enthusiasm for machine learning. With experience in building robust web applications from concept to deployment, I thrive on creating seamless user experiences by leveraging the power of both frontend and backend technologies. My expertise lies in developing scalable and efficient solutions using languages such as Python, JavaScript, and frameworks like ReactJS and Node.js.", 
+  "What truly excites me is the world of machine learning. I find immense joy in exploring and implementing algorithms that can make intelligent predictions, uncover patterns, and generate valuable insights from data. Whether it's developing machine learning models, utilizing deep learning techniques, or working with frameworks like TensorFlow or PyTorch, I am always eager to dive into the realm of artificial intelligence."]
 }
 
 // Education Section
@@ -58,8 +58,9 @@ const educationInfo = {
       descBullets: [
         "Intro to Artificial Intelligence",
         "Software Methodology",
-        "Computer Architecture",
+        "Machine Learning Principles",
         "Computer Algorithms",
+        "Regression Methods",
       ]
     }
   ]
@@ -129,13 +130,24 @@ const workExperiences = {
       role: "Supervisor",
       company: "Rutgers Office of Information Technology",
       companylogo: require("./assets/images/rutgers_logo.png"),
-      date: "October 2020 – Present",
+      date: "October 2020 – January 2023",
       desc: "As a Supervisor for Rutgers OIT, I am responsible for:",
       descBullets: ["Assisting Rutgers OIT full time staff with networking for all the labs across College Avenue campus",
       "Interviewing, Training, and Scheduling over 100 consultants",
       "The Programming and upkeep that goes into the consultant OIT page (a web page OIT workers use to reach resources)",
       "Communicating policy changes made by full time staff to student consultants",
       "Upkeep and policy enforcement in all labs across College Avenue"]
+    },
+    {
+      role: "SAT/ACT Math Tutor",
+      company: "Huntington Learning Center ",
+      companylogo: require("./assets/images/huntington_logo.png"),
+      date: "Feburary 2023 – June 2023",
+      desc: "",
+      descBullets: ["Conducted one-on-one and group tutoring sessions focused on SAT/ACT Math concepts, strategies, and problem-solving techniques",
+      "Developed personalized study plans based on students' individual needs and goals",
+      "Assisted students in improving their overall SAT/ACT scores by implementing targeted instruction and practice",
+      "Provided guidance on effective test-taking strategies, time management, and stress reduction techniques"]
     },
   ]
 };

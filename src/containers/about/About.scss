@@ -3,6 +3,8 @@
 .about-main-div {
   display: flex;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-text-div {
@@ -14,9 +16,10 @@
   margin-bottom: 30px;
 }
 
-.about-image-div > img {
+.about-image-div {
   max-width: 100%;
   height: auto;
+  margin-top: 30px;
 }
 
 .about-heading {
